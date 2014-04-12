@@ -1,0 +1,23 @@
+{
+  "name": "common-cents",
+  "version": "0.0.0",
+  "homepage": "https://github.com/SWCommonCents/GreenGalaxy",
+  "authors": [
+    "Chris Montes <chrismontes@about.me>"
+  ],
+  "description": "Empowering students to create a financially sustainable future",
+  "main": "assets/css/application.css",
+  "license": "MIT",
+  "directory": "assets/js/vendor",
+  "dependencies" : {
+    "jquery": "1.10",
+    "zepto": "1.10"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
