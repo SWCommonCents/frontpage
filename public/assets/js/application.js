@@ -13,8 +13,10 @@
       jQuery('#fullpage').fullpage({
         resize: false,
         css3: true,
-        // navigation: true,
+        navigation: true,
         navigationPosition: 'right',
+        slidesNavigation: true,
+        slidesNavPosition: 'bottom',
         scrollOverflow: true,
         scrollingSpeed: 500,
         touchSensitivity: 15,

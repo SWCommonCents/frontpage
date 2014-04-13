@@ -6891,15 +6891,18 @@ th.hide-for-touch {
 /* line 8, scss/_typography.scss */
 h1, h2, h3 {
   font-weight: 100;
-  color: #fff;
+  color: #fff; }
+
+/* line 13, scss/_typography.scss */
+h1 {
   font-size: 1.5rem; }
   @media only screen and (min-width: 40.063em) {
-    /* line 8, scss/_typography.scss */
-    h1, h2, h3 {
+    /* line 13, scss/_typography.scss */
+    h1 {
       font-size: 2.25rem; } }
   @media only screen and (min-width: 64.063em) {
-    /* line 8, scss/_typography.scss */
-    h1, h2, h3 {
+    /* line 13, scss/_typography.scss */
+    h1 {
       font-size: 3rem; } }
 
 /* line 1, scss/_layout.scss */
@@ -7186,7 +7189,71 @@ html, body {
 
 /* line 1, scss/slides/_pitch.scss */
 #pitch-section {
-  background: #0682eb; }
+  background: #559ad3; }
+  /* line 4, scss/slides/_pitch.scss */
+  #pitch-section h1 {
+    font-size: 3.75rem;
+    position: absolute;
+    top: 5%; }
+  /* line 10, scss/slides/_pitch.scss */
+  #pitch-section h2.featured {
+    font-size: 4.5rem; }
+  /* line 14, scss/slides/_pitch.scss */
+  #pitch-section h3 {
+    font-size: 2.25rem;
+    font-weight: bold; }
+  /* line 19, scss/slides/_pitch.scss */
+  #pitch-section h4 {
+    font-size: 1.875rem;
+    font-weight: 100; }
+  /* line 24, scss/slides/_pitch.scss */
+  #pitch-section p {
+    font-size: 1.875rem; }
+    /* line 27, scss/slides/_pitch.scss */
+    #pitch-section p.small {
+      font-size: 1.125rem; }
+    /* line 31, scss/slides/_pitch.scss */
+    #pitch-section p.indented {
+      margin-left: 1.25rem; }
+  /* line 36, scss/slides/_pitch.scss */
+  #pitch-section .footnote {
+    position: absolute;
+    bottom: 2%; }
+  /* line 41, scss/slides/_pitch.scss */
+  #pitch-section .slide {
+    position: relative; }
+    /* line 45, scss/slides/_pitch.scss */
+    #pitch-section .slide.long h3 {
+      font-size: 2rem; }
+    /* line 48, scss/slides/_pitch.scss */
+    #pitch-section .slide.long p {
+      font-size: 1.5rem;
+      margin-bottom: 0.9375rem; }
+  /* line 55, scss/slides/_pitch.scss */
+  #pitch-section .columns {
+    position: static; }
+  /* line 59, scss/slides/_pitch.scss */
+  #pitch-section .fullPage-slidesNav {
+    opacity: 0;
+    -webkit-transition: opacity .3s ease;
+    -moz-transition: opacity .3s ease;
+    -o-transition: opacity .3s ease;
+    transition: opacity .3s ease; }
+    /* line 65, scss/slides/_pitch.scss */
+    #pitch-section .fullPage-slidesNav:hover {
+      opacity: 0.3; }
+  /* line 70, scss/slides/_pitch.scss */
+  #pitch-section .controlArrow {
+    top: auto;
+    bottom: 20px;
+    opacity: 0;
+    -webkit-transition: opacity .3s ease;
+    -moz-transition: opacity .3s ease;
+    -o-transition: opacity .3s ease;
+    transition: opacity .3s ease; }
+    /* line 78, scss/slides/_pitch.scss */
+    #pitch-section .controlArrow:hover {
+      opacity: 0.3; }
 
 /* line 1, scss/slides/_features.scss */
 #features-section {
@@ -7241,7 +7308,7 @@ html, body {
   z-index: 0; }
   /* line 49, scss/_slides.scss */
   #fullpage-bg.pitch-section {
-    background: #0682eb; }
+    background: #559ad3; }
   /* line 53, scss/_slides.scss */
   #fullpage-bg.features-section {
     background: #37bec4; }
@@ -7255,11 +7322,17 @@ html, body {
   #fullpage-bg.footer-section {
     background: transparent; }
 
-/* line 75, scss/_slides.scss */
+/* line 72, scss/_slides.scss */
+#fullPage-nav.top {
+  top: 10px; }
+  /* line 74, scss/_slides.scss */
+  #fullPage-nav.top li {
+    display: inline-block; }
+/* line 79, scss/_slides.scss */
 #fullPage-nav.right {
   right: 10px; }
 
-/* line 79, scss/_slides.scss */
+/* line 84, scss/_slides.scss */
 #fullPage-nav li,
 .fullPage-slidesNav li {
   width: 22px;
@@ -7267,19 +7340,19 @@ html, body {
   position: relative;
   margin-bottom: 10px; }
 
-/* line 87, scss/_slides.scss */
+/* line 92, scss/_slides.scss */
 #fullPage-nav li .active span,
 .fullPage-slidesNav .active span {
   background: rgba(255, 255, 255, 0.5); }
 
-/* line 92, scss/_slides.scss */
+/* line 97, scss/_slides.scss */
 #fullPage-nav li a,
 .fullPage-slidesNav li a {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%; }
 
-/* line 99, scss/_slides.scss */
+/* line 104, scss/_slides.scss */
 #fullPage-nav span,
 .fullPage-slidesNav span {
   background: rgba(255, 255, 255, 0.25);

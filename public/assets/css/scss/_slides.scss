@@ -69,11 +69,16 @@
 }
 
 #fullPage-nav {
+  &.top {
+    top: 10px;
+    li {
+      display: inline-block;
+    }
+  }
 
-}
-
-#fullPage-nav.right {
-  right: 10px;
+  &.right {
+    right: 10px;
+  }
 }
 
 #fullPage-nav li,

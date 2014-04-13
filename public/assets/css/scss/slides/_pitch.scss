@@ -1,3 +1,82 @@
 #pitch-section {
   background: $slide-pitch-background;
+
+  h1 {
+    font-size: rem-calc(60);
+    position: absolute;
+    top: 5%;
+  }
+
+  h2.featured {
+    font-size: rem-calc(72);
+  }
+
+  h3 {
+    font-size: rem-calc(36);
+    font-weight: bold;
+  }
+
+  h4 {
+    font-size: rem-calc(30);
+    font-weight: 100;
+  }
+
+  p {
+    font-size: rem-calc(30);
+
+    &.small {
+      font-size: rem-calc(18);
+    }
+
+    &.indented {
+      margin-left: rem-calc(20);
+    }
+  }
+
+  .footnote {
+    position: absolute;
+    bottom: 2%;
+  }
+
+  .slide {
+    position: relative;
+
+    &.long {
+      h3 {
+        font-size: rem-calc(32);
+      }
+      p {
+        font-size: rem-calc(24);
+        margin-bottom: rem-calc(15);
+      }
+    }
+  }
+
+  .columns {
+    position: static;
+  }
+
+  .fullPage-slidesNav {
+    opacity: 0;
+    -webkit-transition: opacity .3s ease;
+    -moz-transition: opacity .3s ease;
+    -o-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+    &:hover {
+      opacity: 0.3;
+    }
+  }
+
+  .controlArrow {
+    top: auto;
+    bottom: 20px;
+    opacity: 0;
+    -webkit-transition: opacity .3s ease;
+    -moz-transition: opacity .3s ease;
+    -o-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+    &:hover {
+      opacity: 0.3;
+    }
+  }
 }
