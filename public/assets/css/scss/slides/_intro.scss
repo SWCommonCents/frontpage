@@ -1,3 +1,18 @@
 #intro-section {
 
+  background: $slide-intro-background;
+
+  h1 {
+    padding-bottom: rem-calc(20);
+  }
+
+  #product-demo-1 {
+    height: rem-calc(180);
+    width: 100%;
+    background: url(/assets/images/app-on-iphone-1.png) no-repeat center;
+    background-size: contain;
+    @media #{$medium-up} {
+      height: rem-calc(412);
+    }
+  }
 }

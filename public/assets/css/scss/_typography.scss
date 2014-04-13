@@ -1,0 +1,18 @@
+/* `Font Variables
+-----------------------------------------------------------*/
+$primary-font: "museo-sans";
+$logo-font: "proxima-nova";
+
+/* `Headers
+-----------------------------------------------------------*/
+h1, h2, h3 {
+  font-weight: 100;
+  color: #fff;
+  font-size: rem-calc(24);
+  @media #{$medium-up} {
+    font-size: rem-calc(36);
+  }
+  @media #{$large-up} {
+    font-size: rem-calc(48);
+  }
+}

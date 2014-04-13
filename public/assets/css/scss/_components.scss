@@ -1,1 +1,21 @@
 @import "components/fullpage";
+
+/* `Custom Buttons
+---------------------------------------------------------*/
+.button {
+
+  &.app-store {
+    background: #4dc060 url(/assets/images/apple.png) no-repeat rem-calc(25) center;
+    padding: rem-calc(16) rem-calc(30) rem-calc(14) rem-calc(65);
+    font-size: rem-calc(18);
+    white-space: nowrap;
+    margin: 0;
+    @media #{$medium-up} {
+      font-size: rem-calc(24);
+    }
+
+    &:hover {
+      background-color: darken(#4dc060, 4);
+    }
+  }
+}

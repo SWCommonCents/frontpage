@@ -1,2 +1,26 @@
-body {
+#header {
+  position: fixed;
+  width: 100%;
+
+}
+
+.small-up-visible {
+  display: none !important;
+  @media #{$small-up} {
+    display: block;
+  }
+}
+
+.medium-up-visible {
+  display: none !important;
+  @media #{$medium-up} {
+    display: block;
+  }
+}
+
+.large-up-visible {
+  display: none !important;
+  @media #{$large-up} {
+    display: block;
+  }
 }

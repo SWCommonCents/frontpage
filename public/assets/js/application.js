@@ -5,12 +5,29 @@
 
   var app = (function(window) {
 
+    var $wrapper = $('#fullpage'),
+      $slides = $('#fullpage .section'),
+      $background = $('#fullpage-bg');
+
     function buildScroller() {
       jQuery('#fullpage').fullpage({
         resize: false,
         css3: true,
-        navigation: true,
-        navigationPosition: 'right'
+        // navigation: true,
+        navigationPosition: 'right',
+        scrollOverflow: true,
+        scrollingSpeed: 500,
+        touchSensitivity: 15,
+        onLeave: function(index, direction) {
+          // inform the wrapper of the direction
+          $wrapper.removeClass('up down').addClass(direction);
+        },
+        afterLoad: function(anchorLink, index) {
+          var i = index - 1,
+            nextClass = $slides.eq(i).attr('id');
+          // add the background color class
+          $background.attr('class', '').addClass(nextClass);
+        }
       });
     }
 
