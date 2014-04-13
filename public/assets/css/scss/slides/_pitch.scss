@@ -1,5 +1,4 @@
 #pitch-section {
-  background: $slide-pitch-background;
 
   h1 {
     font-size: rem-calc(60);
@@ -9,6 +8,18 @@
 
   h2.featured {
     font-size: rem-calc(72);
+  }
+
+  .pitch-nav {
+    color: #fff;
+    opacity: 0.7;
+    -webkit-transition: opacity .3s ease;
+    -moz-transition: opacity .3s ease;
+    -o-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+    &:hover {
+      opacity: 1;
+    }
   }
 
   h3 {

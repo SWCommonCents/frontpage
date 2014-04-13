@@ -7170,106 +7170,95 @@ html, body {
   .button.app-store:hover {
     background-color: #41b855; }
 
-/* line 1, scss/slides/_intro.scss */
-#intro-section {
-  background: #0682eb; }
-  /* line 5, scss/slides/_intro.scss */
-  #intro-section h1 {
-    padding-bottom: 1.25rem; }
-  /* line 9, scss/slides/_intro.scss */
-  #intro-section #product-demo-1 {
-    height: 11.25rem;
-    width: 100%;
-    background: url(/assets/images/app-on-iphone-1.png) no-repeat center;
-    background-size: contain; }
-    @media only screen and (min-width: 40.063em) {
-      /* line 9, scss/slides/_intro.scss */
-      #intro-section #product-demo-1 {
-        height: 25.75rem; } }
+/* line 3, scss/slides/_intro.scss */
+#intro-section h1 {
+  padding-bottom: 1.25rem; }
+/* line 7, scss/slides/_intro.scss */
+#intro-section #product-demo-1 {
+  height: 11.25rem;
+  width: 100%;
+  background: url(/assets/images/app-on-iphone-1.png) no-repeat center;
+  background-size: contain; }
+  @media only screen and (min-width: 40.063em) {
+    /* line 7, scss/slides/_intro.scss */
+    #intro-section #product-demo-1 {
+      height: 25.75rem; } }
 
-/* line 1, scss/slides/_pitch.scss */
-#pitch-section {
-  background: #559ad3; }
-  /* line 4, scss/slides/_pitch.scss */
-  #pitch-section h1 {
-    font-size: 3.75rem;
-    position: absolute;
-    top: 5%; }
-  /* line 10, scss/slides/_pitch.scss */
-  #pitch-section h2.featured {
-    font-size: 4.5rem; }
-  /* line 14, scss/slides/_pitch.scss */
-  #pitch-section h3 {
-    font-size: 2.25rem;
-    font-weight: bold; }
-  /* line 19, scss/slides/_pitch.scss */
-  #pitch-section h4 {
-    font-size: 1.875rem;
-    font-weight: 100; }
-  /* line 24, scss/slides/_pitch.scss */
-  #pitch-section p {
-    font-size: 1.875rem; }
-    /* line 27, scss/slides/_pitch.scss */
-    #pitch-section p.small {
-      font-size: 1.125rem; }
-    /* line 31, scss/slides/_pitch.scss */
-    #pitch-section p.indented {
-      margin-left: 1.25rem; }
-  /* line 36, scss/slides/_pitch.scss */
-  #pitch-section .footnote {
-    position: absolute;
-    bottom: 2%; }
-  /* line 41, scss/slides/_pitch.scss */
-  #pitch-section .slide {
-    position: relative; }
-    /* line 45, scss/slides/_pitch.scss */
-    #pitch-section .slide.long h3 {
-      font-size: 2rem; }
-    /* line 48, scss/slides/_pitch.scss */
-    #pitch-section .slide.long p {
-      font-size: 1.5rem;
-      margin-bottom: 0.9375rem; }
-  /* line 55, scss/slides/_pitch.scss */
-  #pitch-section .columns {
-    position: static; }
+/* line 3, scss/slides/_pitch.scss */
+#pitch-section h1 {
+  font-size: 3.75rem;
+  position: absolute;
+  top: 5%; }
+/* line 9, scss/slides/_pitch.scss */
+#pitch-section h2.featured {
+  font-size: 4.5rem; }
+/* line 13, scss/slides/_pitch.scss */
+#pitch-section .pitch-nav {
+  color: #fff;
+  opacity: 0.7;
+  -webkit-transition: opacity .3s ease;
+  -moz-transition: opacity .3s ease;
+  -o-transition: opacity .3s ease;
+  transition: opacity .3s ease; }
+  /* line 20, scss/slides/_pitch.scss */
+  #pitch-section .pitch-nav:hover {
+    opacity: 1; }
+/* line 25, scss/slides/_pitch.scss */
+#pitch-section h3 {
+  font-size: 2.25rem;
+  font-weight: bold; }
+/* line 30, scss/slides/_pitch.scss */
+#pitch-section h4 {
+  font-size: 1.875rem;
+  font-weight: 100; }
+/* line 35, scss/slides/_pitch.scss */
+#pitch-section p {
+  font-size: 1.875rem; }
+  /* line 38, scss/slides/_pitch.scss */
+  #pitch-section p.small {
+    font-size: 1.125rem; }
+  /* line 42, scss/slides/_pitch.scss */
+  #pitch-section p.indented {
+    margin-left: 1.25rem; }
+/* line 47, scss/slides/_pitch.scss */
+#pitch-section .footnote {
+  position: absolute;
+  bottom: 2%; }
+/* line 52, scss/slides/_pitch.scss */
+#pitch-section .slide {
+  position: relative; }
+  /* line 56, scss/slides/_pitch.scss */
+  #pitch-section .slide.long h3 {
+    font-size: 2rem; }
   /* line 59, scss/slides/_pitch.scss */
-  #pitch-section .fullPage-slidesNav {
-    opacity: 0;
-    -webkit-transition: opacity .3s ease;
-    -moz-transition: opacity .3s ease;
-    -o-transition: opacity .3s ease;
-    transition: opacity .3s ease; }
-    /* line 65, scss/slides/_pitch.scss */
-    #pitch-section .fullPage-slidesNav:hover {
-      opacity: 0.3; }
-  /* line 70, scss/slides/_pitch.scss */
-  #pitch-section .controlArrow {
-    top: auto;
-    bottom: 20px;
-    opacity: 0;
-    -webkit-transition: opacity .3s ease;
-    -moz-transition: opacity .3s ease;
-    -o-transition: opacity .3s ease;
-    transition: opacity .3s ease; }
-    /* line 78, scss/slides/_pitch.scss */
-    #pitch-section .controlArrow:hover {
-      opacity: 0.3; }
-
-/* line 1, scss/slides/_features.scss */
-#features-section {
-  background: #37bec4; }
-
-/* line 1, scss/slides/_rewards.scss */
-#rewards-section {
-  background: #673453; }
-
-/* line 1, scss/slides/_social.scss */
-#social-section {
-  background: #e72828; }
-
-/* line 1, scss/slides/_footer.scss */
-#footer-section {
-  background: transparent; }
+  #pitch-section .slide.long p {
+    font-size: 1.5rem;
+    margin-bottom: 0.9375rem; }
+/* line 66, scss/slides/_pitch.scss */
+#pitch-section .columns {
+  position: static; }
+/* line 70, scss/slides/_pitch.scss */
+#pitch-section .fullPage-slidesNav {
+  opacity: 0;
+  -webkit-transition: opacity .3s ease;
+  -moz-transition: opacity .3s ease;
+  -o-transition: opacity .3s ease;
+  transition: opacity .3s ease; }
+  /* line 76, scss/slides/_pitch.scss */
+  #pitch-section .fullPage-slidesNav:hover {
+    opacity: 0.3; }
+/* line 81, scss/slides/_pitch.scss */
+#pitch-section .controlArrow {
+  top: auto;
+  bottom: 20px;
+  opacity: 0;
+  -webkit-transition: opacity .3s ease;
+  -moz-transition: opacity .3s ease;
+  -o-transition: opacity .3s ease;
+  transition: opacity .3s ease; }
+  /* line 89, scss/slides/_pitch.scss */
+  #pitch-section .controlArrow:hover {
+    opacity: 0.3; }
 
 /* line 8, scss/_slides.scss */
 #fullpage {
