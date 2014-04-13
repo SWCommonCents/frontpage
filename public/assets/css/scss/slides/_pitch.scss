@@ -42,6 +42,9 @@
 
   h2.featured {
     font-size: rem-calc(50);
+    &.huge {
+      font-size: rem-calc(100);
+    }
   }
 
   .pitch-nav {

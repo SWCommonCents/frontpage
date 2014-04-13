@@ -7217,7 +7217,10 @@ html, body {
 /* line 43, scss/slides/_pitch.scss */
 #pitch-section h2.featured {
   font-size: 3.125rem; }
-/* line 47, scss/slides/_pitch.scss */
+  /* line 45, scss/slides/_pitch.scss */
+  #pitch-section h2.featured.huge {
+    font-size: 6.25rem; }
+/* line 50, scss/slides/_pitch.scss */
 #pitch-section .pitch-nav {
   color: #fff;
   opacity: 0.7;
@@ -7225,79 +7228,79 @@ html, body {
   -moz-transition: opacity .3s ease;
   -o-transition: opacity .3s ease;
   transition: opacity .3s ease; }
-  /* line 54, scss/slides/_pitch.scss */
+  /* line 57, scss/slides/_pitch.scss */
   #pitch-section .pitch-nav:hover {
     opacity: 1; }
-/* line 59, scss/slides/_pitch.scss */
+/* line 62, scss/slides/_pitch.scss */
 #pitch-section h3 {
   font-size: 2.25rem;
   font-weight: bold; }
-/* line 64, scss/slides/_pitch.scss */
+/* line 67, scss/slides/_pitch.scss */
 #pitch-section h4 {
   font-size: 1.875rem;
   font-weight: 100; }
-/* line 69, scss/slides/_pitch.scss */
+/* line 72, scss/slides/_pitch.scss */
 #pitch-section p {
   font-size: 1.875rem; }
-  /* line 72, scss/slides/_pitch.scss */
+  /* line 75, scss/slides/_pitch.scss */
   #pitch-section p.small {
     font-size: 1.125rem; }
-  /* line 76, scss/slides/_pitch.scss */
+  /* line 79, scss/slides/_pitch.scss */
   #pitch-section p.indented {
     margin-left: 1.25rem; }
-/* line 81, scss/slides/_pitch.scss */
+/* line 84, scss/slides/_pitch.scss */
 #pitch-section .footnote {
   position: absolute;
   bottom: 2%; }
-/* line 86, scss/slides/_pitch.scss */
+/* line 89, scss/slides/_pitch.scss */
 #pitch-section .slide {
   position: relative; }
-  /* line 90, scss/slides/_pitch.scss */
+  /* line 93, scss/slides/_pitch.scss */
   #pitch-section .slide.long h3 {
     font-size: 1.875rem; }
-  /* line 93, scss/slides/_pitch.scss */
+  /* line 96, scss/slides/_pitch.scss */
   #pitch-section .slide.long p {
     font-size: 1.375rem;
     margin-bottom: 0.75rem; }
 @media screen and (max-height: 800px) {
-  /* line 101, scss/slides/_pitch.scss */
+  /* line 104, scss/slides/_pitch.scss */
   #pitch-section h1 {
     font-size: 3rem; }
-    /* line 104, scss/slides/_pitch.scss */
+    /* line 107, scss/slides/_pitch.scss */
     #pitch-section h1 h2.featured {
       font-size: 2.25rem; }
-  /* line 109, scss/slides/_pitch.scss */
+  /* line 112, scss/slides/_pitch.scss */
   #pitch-section h3 {
     font-size: 1.875rem;
     font-weight: bold; }
-  /* line 114, scss/slides/_pitch.scss */
+  /* line 117, scss/slides/_pitch.scss */
   #pitch-section h4 {
     font-size: 1.5rem;
     font-weight: 100; }
-  /* line 119, scss/slides/_pitch.scss */
+  /* line 122, scss/slides/_pitch.scss */
   #pitch-section p {
     font-size: 1.5rem;
     margin-bottom: 0.9375rem; }
-    /* line 122, scss/slides/_pitch.scss */
+    /* line 125, scss/slides/_pitch.scss */
     #pitch-section p.small {
       font-size: 1.125rem; }
-    /* line 126, scss/slides/_pitch.scss */
+    /* line 129, scss/slides/_pitch.scss */
     #pitch-section p.indented {
       margin-left: 1.25rem; } }
-/* line 134, scss/slides/_pitch.scss */
+/* line 137, scss/slides/_pitch.scss */
 #pitch-section .columns {
   position: static; }
-/* line 138, scss/slides/_pitch.scss */
+/* line 141, scss/slides/_pitch.scss */
 #pitch-section .fullPage-slidesNav {
   opacity: 0;
   -webkit-transition: opacity .3s ease;
   -moz-transition: opacity .3s ease;
   -o-transition: opacity .3s ease;
   transition: opacity .3s ease; }
-  /* line 144, scss/slides/_pitch.scss */
+  /* line 147, scss/slides/_pitch.scss */
   #pitch-section .fullPage-slidesNav:hover {
     opacity: 0.3; }
-/* line 149, scss/slides/_pitch.scss */
+/* line 152, scss/slides/_pitch.scss */
 #pitch-section .controlArrow {
   top: auto;
   bottom: 20px;
@@ -7306,9 +7309,29 @@ html, body {
   -moz-transition: opacity .3s ease;
   -o-transition: opacity .3s ease;
   transition: opacity .3s ease; }
-  /* line 157, scss/slides/_pitch.scss */
+  /* line 160, scss/slides/_pitch.scss */
   #pitch-section .controlArrow:hover {
     opacity: 0.3; }
+
+/* line 11, scss/slides/_features.scss */
+#features-section .product-features-wrapper {
+  -webkit-transition: all 1s ease;
+  -webkit-transform: translate3d(50%, 0, 0);
+  opacity: 0; }
+/* line 17, scss/slides/_features.scss */
+#features-section.active .product-features-wrapper {
+  -webkit-transform: translate3d(0, 0, 0);
+  opacity: 1; }
+
+/* line 26, scss/slides/_features.scss */
+#features-section-2 .product-features-wrapper {
+  -webkit-transition: all 1s ease;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  opacity: 0; }
+/* line 32, scss/slides/_features.scss */
+#features-section-2.active .product-features-wrapper {
+  -webkit-transform: translate3d(0, 0, 0);
+  opacity: 1; }
 
 /* line 8, scss/_slides.scss */
 #fullpage {
@@ -7352,26 +7375,29 @@ html, body {
   #fullpage-bg.features-section {
     background: #37bec4; }
   /* line 57, scss/_slides.scss */
+  #fullpage-bg.features-section-2 {
+    background: #37bec4; }
+  /* line 61, scss/_slides.scss */
   #fullpage-bg.rewards-section {
     background: #673453; }
-  /* line 61, scss/_slides.scss */
+  /* line 65, scss/_slides.scss */
   #fullpage-bg.social-section {
     background: #e72828; }
-  /* line 65, scss/_slides.scss */
+  /* line 69, scss/_slides.scss */
   #fullpage-bg.footer-section {
     background: transparent; }
 
-/* line 72, scss/_slides.scss */
+/* line 76, scss/_slides.scss */
 #fullPage-nav.top {
   top: 10px; }
-  /* line 74, scss/_slides.scss */
+  /* line 78, scss/_slides.scss */
   #fullPage-nav.top li {
     display: inline-block; }
-/* line 79, scss/_slides.scss */
+/* line 83, scss/_slides.scss */
 #fullPage-nav.right {
   right: 10px; }
 
-/* line 84, scss/_slides.scss */
+/* line 88, scss/_slides.scss */
 #fullPage-nav li,
 .fullPage-slidesNav li {
   width: 22px;
@@ -7379,19 +7405,19 @@ html, body {
   position: relative;
   margin-bottom: 10px; }
 
-/* line 92, scss/_slides.scss */
+/* line 96, scss/_slides.scss */
 #fullPage-nav li .active span,
 .fullPage-slidesNav .active span {
   background: rgba(255, 255, 255, 0.5); }
 
-/* line 97, scss/_slides.scss */
+/* line 101, scss/_slides.scss */
 #fullPage-nav li a,
 .fullPage-slidesNav li a {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%; }
 
-/* line 104, scss/_slides.scss */
+/* line 108, scss/_slides.scss */
 #fullPage-nav span,
 .fullPage-slidesNav span {
   background: rgba(255, 255, 255, 0.25);
