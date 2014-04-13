@@ -1,3 +1,4 @@
+require 'bundler/setup'
 require 'sinatra'
 
 set :erb, :format => :html5

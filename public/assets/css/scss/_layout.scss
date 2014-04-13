@@ -5,22 +5,44 @@
 }
 
 .small-up-visible {
-  display: none !important;
+  display: none;
   @media #{$small-up} {
     display: block;
   }
 }
 
 .medium-up-visible {
-  display: none !important;
+  display: none;
   @media #{$medium-up} {
     display: block;
   }
 }
 
 .large-up-visible {
-  display: none !important;
+  display: none;
   @media #{$large-up} {
     display: block;
+  }
+}
+
+
+.small-up-visible-inline {
+  display: none;
+  @media #{$small-up} {
+    display: inline;
+  }
+}
+
+.medium-up-visible-inline {
+  display: none;
+  @media #{$medium-up} {
+    display: inline;
+  }
+}
+
+.large-up-visible-inline {
+  display: none;
+  @media #{$large-up} {
+    display: inline;
   }
 }
