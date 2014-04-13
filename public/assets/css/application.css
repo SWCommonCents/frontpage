@@ -7184,15 +7184,40 @@ html, body {
     #intro-section #product-demo-1 {
       height: 25.75rem; } }
 
-/* line 3, scss/slides/_pitch.scss */
+@media screen screen and (min-height: 860px) {
+  /* line 4, scss/slides/_pitch.scss */
+  #pitch-section h1 {
+    font-size: 3rem; }
+    /* line 7, scss/slides/_pitch.scss */
+    #pitch-section h1 h2.featured {
+      font-size: 2.25rem; }
+  /* line 12, scss/slides/_pitch.scss */
+  #pitch-section h3 {
+    font-size: 1.875rem;
+    font-weight: bold; }
+  /* line 17, scss/slides/_pitch.scss */
+  #pitch-section h4 {
+    font-size: 1.5rem;
+    font-weight: 100; }
+  /* line 22, scss/slides/_pitch.scss */
+  #pitch-section p {
+    font-size: 1.5rem;
+    margin-bottom: 0.9375rem; }
+    /* line 25, scss/slides/_pitch.scss */
+    #pitch-section p.small {
+      font-size: 1.125rem; }
+    /* line 29, scss/slides/_pitch.scss */
+    #pitch-section p.indented {
+      margin-left: 1.25rem; } }
+/* line 37, scss/slides/_pitch.scss */
 #pitch-section h1 {
   font-size: 3.75rem;
   position: absolute;
   top: 5%; }
-/* line 9, scss/slides/_pitch.scss */
+/* line 43, scss/slides/_pitch.scss */
 #pitch-section h2.featured {
-  font-size: 4.5rem; }
-/* line 13, scss/slides/_pitch.scss */
+  font-size: 3.125rem; }
+/* line 47, scss/slides/_pitch.scss */
 #pitch-section .pitch-nav {
   color: #fff;
   opacity: 0.7;
@@ -7200,54 +7225,79 @@ html, body {
   -moz-transition: opacity .3s ease;
   -o-transition: opacity .3s ease;
   transition: opacity .3s ease; }
-  /* line 20, scss/slides/_pitch.scss */
+  /* line 54, scss/slides/_pitch.scss */
   #pitch-section .pitch-nav:hover {
     opacity: 1; }
-/* line 25, scss/slides/_pitch.scss */
+/* line 59, scss/slides/_pitch.scss */
 #pitch-section h3 {
   font-size: 2.25rem;
   font-weight: bold; }
-/* line 30, scss/slides/_pitch.scss */
+/* line 64, scss/slides/_pitch.scss */
 #pitch-section h4 {
   font-size: 1.875rem;
   font-weight: 100; }
-/* line 35, scss/slides/_pitch.scss */
+/* line 69, scss/slides/_pitch.scss */
 #pitch-section p {
   font-size: 1.875rem; }
-  /* line 38, scss/slides/_pitch.scss */
+  /* line 72, scss/slides/_pitch.scss */
   #pitch-section p.small {
     font-size: 1.125rem; }
-  /* line 42, scss/slides/_pitch.scss */
+  /* line 76, scss/slides/_pitch.scss */
   #pitch-section p.indented {
     margin-left: 1.25rem; }
-/* line 47, scss/slides/_pitch.scss */
+/* line 81, scss/slides/_pitch.scss */
 #pitch-section .footnote {
   position: absolute;
   bottom: 2%; }
-/* line 52, scss/slides/_pitch.scss */
+/* line 86, scss/slides/_pitch.scss */
 #pitch-section .slide {
   position: relative; }
-  /* line 56, scss/slides/_pitch.scss */
+  /* line 90, scss/slides/_pitch.scss */
   #pitch-section .slide.long h3 {
-    font-size: 2rem; }
-  /* line 59, scss/slides/_pitch.scss */
+    font-size: 1.875rem; }
+  /* line 93, scss/slides/_pitch.scss */
   #pitch-section .slide.long p {
+    font-size: 1.375rem;
+    margin-bottom: 0.75rem; }
+@media screen and (max-height: 800px) {
+  /* line 101, scss/slides/_pitch.scss */
+  #pitch-section h1 {
+    font-size: 3rem; }
+    /* line 104, scss/slides/_pitch.scss */
+    #pitch-section h1 h2.featured {
+      font-size: 2.25rem; }
+  /* line 109, scss/slides/_pitch.scss */
+  #pitch-section h3 {
+    font-size: 1.875rem;
+    font-weight: bold; }
+  /* line 114, scss/slides/_pitch.scss */
+  #pitch-section h4 {
+    font-size: 1.5rem;
+    font-weight: 100; }
+  /* line 119, scss/slides/_pitch.scss */
+  #pitch-section p {
     font-size: 1.5rem;
     margin-bottom: 0.9375rem; }
-/* line 66, scss/slides/_pitch.scss */
+    /* line 122, scss/slides/_pitch.scss */
+    #pitch-section p.small {
+      font-size: 1.125rem; }
+    /* line 126, scss/slides/_pitch.scss */
+    #pitch-section p.indented {
+      margin-left: 1.25rem; } }
+/* line 134, scss/slides/_pitch.scss */
 #pitch-section .columns {
   position: static; }
-/* line 70, scss/slides/_pitch.scss */
+/* line 138, scss/slides/_pitch.scss */
 #pitch-section .fullPage-slidesNav {
   opacity: 0;
   -webkit-transition: opacity .3s ease;
   -moz-transition: opacity .3s ease;
   -o-transition: opacity .3s ease;
   transition: opacity .3s ease; }
-  /* line 76, scss/slides/_pitch.scss */
+  /* line 144, scss/slides/_pitch.scss */
   #pitch-section .fullPage-slidesNav:hover {
     opacity: 0.3; }
-/* line 81, scss/slides/_pitch.scss */
+/* line 149, scss/slides/_pitch.scss */
 #pitch-section .controlArrow {
   top: auto;
   bottom: 20px;
@@ -7256,7 +7306,7 @@ html, body {
   -moz-transition: opacity .3s ease;
   -o-transition: opacity .3s ease;
   transition: opacity .3s ease; }
-  /* line 89, scss/slides/_pitch.scss */
+  /* line 157, scss/slides/_pitch.scss */
   #pitch-section .controlArrow:hover {
     opacity: 0.3; }
 
